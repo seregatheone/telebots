@@ -1,6 +1,6 @@
 from pyowm import OWM
 
-owm = OWM('05acfdf80fae9ce5450443646a338ad6')  # You MUST provide a valid API key
+owm = OWM('***')  # You MUST provide a valid API key
 def pogoda(city):
     if not (isinstance(city,str)):
         return "Sorry, can you enter a city, not a number or smt like this"
